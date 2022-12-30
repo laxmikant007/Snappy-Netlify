@@ -1,0 +1,6 @@
+[build]
+  command = "cd client && npm run build"
+  functions = "functions"
+
+[deploy]
+  command = "cd server && npm run start"
