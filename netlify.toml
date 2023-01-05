@@ -3,4 +3,4 @@
   functions = "functions"
 
 [deploy]
-  command = "cd server && npm run start"
+ command = "cd server && node index.js"
